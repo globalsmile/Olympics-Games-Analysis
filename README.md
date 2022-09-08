@@ -1,6 +1,4 @@
-# Olympics-Games-Analysis
-
-# Sales Management Analysis
+# Olympics Games Analysis
 
 <img align="right" alt="Sales Management Analysis" width="1000" height = "400" src="https://monday.com/blog/wp-content/uploads/2021/05/sales-analysis.jpg">
 
@@ -9,14 +7,14 @@
 
 # Table of Contents
 
-- [Introduction](https://github.com/globalsmile/Sales-Management-Analysis#introduction)
-- [Problem Statement](https://github.com/globalsmile/Sales-Management-Analysis#Problem-Statement)
-- [Data Sourcing](https://github.com/globalsmile/Sales-Management-Analysis#Data-Sourcing)
-- [Data Preparation](https://github.com/globalsmile/Sales-Management-Analysis#Data-Preparation)
-- [Data Modeling](https://github.com/globalsmile/Sales-Management-Analysis#Data-Modeling)
-- [Data Visualization](https://github.com/globalsmile/Sales-Management-Analysis#Data-Visualization)
-- [Data Analysis & Insights](https://github.com/globalsmile/Sales-Management-Analysis#Data-Analysis)
-- [Shareable link](https://github.com/globalsmile/Sales-Management-Analysis#Shareable-Link)
+- [Introduction](https://github.com/globalsmile/Olympics-Games-Analysis#introduction)
+- [Problem Statement](https://github.com/globalsmile/Olympics-Games-Analysis#Problem-Statement)
+- [Data Sourcing](https://github.com/globalsmile/Olympics-Games-Analysis#Data-Sourcing)
+- [Data Preparation](https://github.com/globalsmile/Olympics-Games-Analysis#Data-Preparation)
+- [Data Modeling](https://github.com/globalsmile/Olympics-Games-Analysis#Data-Modeling)
+- [Data Visualization](https://github.com/globalsmile/Olympics-Games-Analysis#Data-Visualization)
+- [Data Analysis & Insights](https://github.com/globalsmile/Olympics-Games-Analysis#Data-Analysis)
+- [Shareable link](https://github.com/globalsmile/Olympics-Games-Analysis#Shareable-Link)
 
 
 ---
