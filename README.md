@@ -124,7 +124,7 @@ Measures used in visualization are:
 
 - '# of Competitors' = `DISTINTCOUNT ( 'Olympic_Data[ID] )`
 - '# of Medals' = `COUNTROWS ( 'Olympic_Data' )`
-- '# of Medals' (Registered) = `CALCULATE ([# of Medals], FILTER( ‘Olympic Data’, ‘Olympic Data'[Medal] = “Bronze” || ‘Olympic Data’ [Medal] = “Gold” || ‘Olympic Data'[Medal] = “Silver)`
+- '# of Medals (Registered)' = `CALCULATE ([# of Medals], FILTER( 'Olympic_Data', 'Olympic_Data'[Medal] = "Bronze" || 'Olympic_Data' [Medal] = "Gold" || 'Olympic_Data'[Medal] = "Silver")`
 
 
 As shown from [Data Visualization](https://github.com/globalsmile/Olympics-Games-Analysis#Data-Visualization), It can be deduced that:
