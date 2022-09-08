@@ -48,13 +48,9 @@ There is also an interest in the details about the competitors.
 
 Data cleaning and transformation was done in Microsoft SQL Server and the datasets was loaded into Microsoft Power BI Desktop for modeling.
 
-The Olympics Game dataset consists of 5 tables:
+The Olympics Game dataset is contained in a table named:
 
-- `DIM_Calender` which has `14 columns and 222,552 rows` of observation
-- `DIM_Customers` which has `7 columns and 18484 rows` of observation
-- `DIM_Products` which has `11 columns and 606 rows` of observation
-- `FACT_InternetSales` which has `7 columns and 58168 rows` of observation
-- `FACT_Budget` which has `2 columns and 18 rows` of observation
+- `Olympic Games Analysis Transformations` which has `14 columns and 222,552 rows` of observation
 
 Below is the SQL statement for cleansing and transforming necessary data.
 
