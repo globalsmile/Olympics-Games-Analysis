@@ -39,9 +39,8 @@ There is also an interest in the details about the competitors.
 
 # Data Sourcing
 
-- The Dataset used for this analysis was sourced from [AdventureWorks sample databases](https://docs.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms) 
-- The additional dataset used for this analysis is available at: [Sales Budget](https://github.com/globalsmile/Sales-Management-Analysis/blob/main/SalesBudget.xlsx)
-- The query used to update the database can be found at [Update Query](https://github.com/globalsmile/Sales-Management-Analysis/blob/main/Update_AdventureWorksDW_Data.sql)
+- The Dataset used for this analysis is available at [Olympic Games dataset](https://www.dropbox.com/s/3sxwx52o3x8ozj7/olympic_games.bak?dl=0) 
+
 
 ---
 
