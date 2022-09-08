@@ -50,11 +50,11 @@ Data cleaning and transformation was done in Microsoft SQL Server and the datase
 
 The Olympics Game dataset is contained in a table named:
 
-- `Olympic Games Analysis Transformations` which has `10 columns and 222,552 rows` of observation
+- `Olympic_Data` which has `10 columns and 222,552 rows` of observation
 
 The necessary data was first put into a SQL database and afterwards transformed using the transformations that you can see below.
 
-`Olympic Games Analysis Transformations`
+`Olympic_Data`
 
 ```TSQL
 SELECT
@@ -76,7 +76,7 @@ SELECT
   WHERE RIGHT(Games,CHARINDEX(' ', REVERSE(Games))-1) = 'Summer'
 ```
 
-The tabulation below shows the `Olympic Games Analysis Transformations` table with its column names and their description:
+The tabulation below shows the `Olympic_Data` table with its column names and their description:
 | Column Name | Description |
 | ----------- | ----------- |
 | Competitor Name | Describes the competitors name |
@@ -96,15 +96,9 @@ The tabulation below shows the `Olympic Games Analysis Transformations` table wi
 
 After the dataset was cleaned and transformed, it was ready to be modeled(using Power BI Desktop).
 
-- The `DIM_Calender` table was marked as the official date table in the dataset.
-- A `one-to-many (*:1) relationship` was created between the `Fact_InternetSales` and the `DIM_Calender` tables 
-- A `one-to-many (*:1) relationship` was created between the `Fact_InternetSales` and the `DIM_Customers` tables 
-- A `one-to-many (*:1) relationship` was created between the `Fact_InternetSales` and the `DIM_Products` tables 
-- A `one-to-many (*:1) relationship` was created between the `FACT_Budget` and the `DIM_Calender` tables using 
-- The realtioships formed is shown in the data model below:
+- The fact and dimension have been combined into one table and is shown in the data model below
 
-<img align="right" alt="Data Model" width="1000" height = "400" src="https://user-images.githubusercontent.com/106287208/188418211-26dbee49-71c9-4fef-b767-279d6d4d67cc.png">
-
+<img align="right" alt="Data Model" width="1000" height = "400" src="hhttps://user-images.githubusercontent.com/106287208/189198226-fc53789b-a1ea-4b31-9a5b-0f5184aa6a1d.png">
 
 ---
 
