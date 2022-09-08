@@ -104,30 +104,15 @@ After the dataset was cleaned and transformed, it was ready to be modeled(using 
 
 # Data Visualization
 
-Data visualization for the datasets was done in 3 folds using Microsoft Power BI Desktop:
+Data visualization for the dataset was done using Microsft Power BI Destop:
 
-- The `Sales Overview`: Shows the sales vs budget KPI, sales by top 10 customers, sales by top 10 products, e.t.c
--  The `Customer Details`: Shows customer specific information
--  The `Product Details`: Shows product specific information
+- The `Olympic Games Analysis` Page: Shows the # of competitors, # of Medals, # of medals by year, etc
 
-
-Figure 1 shows visualizations from `Sales Overview` page
+Figure 1 shows visualizations from `Olympic Games Analysis` page
 
 | Figure 1 |
 | ----------- |
-| ![image](https://user-images.githubusercontent.com/106287208/188423026-e1b4d76d-ffcc-4f8c-a1b7-bd363922f524.png) |
-
-Figure 2 shows visualizations from `Customer Details` page
-
-| Figure 2 |
-| ----------- |
-| ![image](https://user-images.githubusercontent.com/106287208/188423353-266e6a75-d31a-4f2e-ba1d-30dd1f591050.png) |
-
-Figure 3 shows visualizations from `Product Details` page
-
-| Figure 3 |
-| ----------- |
-| ![image](https://user-images.githubusercontent.com/106287208/188423526-fe1c6dd3-73da-4f8f-b757-5d585be1eec3.png) |
+| ![image](https://user-images.githubusercontent.com/106287208/189209800-f64b107b-2a4e-4562-a042-3dd7fc414721.png) |
 
 ---
 
