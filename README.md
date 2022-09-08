@@ -50,16 +50,15 @@ Data cleaning and transformation was done in Microsoft SQL Server and the datase
 
 The Olympics Game dataset is contained in a table named:
 
-- `Olympic Games Analysis Transformations` which has `14 columns and 222,552 rows` of observation
+- `Olympic Games Analysis Transformations` which has `11 columns and 222,552 rows` of observation
 
 Below is the SQL statement for cleansing and transforming necessary data.
 
-`DIM_Calender`
+`Olympic Games Analysis Transformations`
 
 ```TSQL
 SELECT
-         [ID]
-        ,[Name] AS 'Competitor Name'
+         [Name] AS 'Competitor Name'
         ,CASE WHEN SEX = 'M' THEN 'Male' ELSE 'Female' END AS Sex
         ,[Age]
 		,CASE	WHEN [Age] < 18 THEN 'Under 18'
@@ -72,19 +71,25 @@ SELECT
         ,[NOC] AS 'Nation Code'
         ,LEFT(Games, CHARINDEX(' ', Games) - 1) AS 'Year' 
         ,[Sport]
-        ,[Event]
         ,CASE WHEN Medal = 'NA' THEN 'Not Registered' ELSE Medal END AS Medal 
   FROM [olympic_games].[dbo].[athletes_event_results]
   WHERE RIGHT(Games,CHARINDEX(' ', REVERSE(Games))-1) = 'Summer'
 ```
 
-
-
-The tabulation below shows the `FACT_Budget` table with its column names and their description:
+The tabulation below shows the `Olympic Games Analysis Transformations` table with its column names and their description:
 | Column Name | Description |
 | ----------- | ----------- |
-| Date | Represents the date budget was made|
-| Budget | Represents the amount budgeted |
+| Competitor Name | Represents the date and time of tweet |
+| Sex | Describes the tweet url |
+| Age | Describes the username of the user |
+| Age Grouping | Descibes the device type of the user  |
+| Height | Describes the location of the user |
+| Weight | Describes the content of the tweet |
+| NOC | Represents the count of likes of the tweet |
+| Year | Represents the count of retweets of the tweet |
+| Season | Represents the count of quote tweets on the tweet |
+| Sport | Represents the count of reply on the tweet |
+| Medal | Represents the count of reply on the tweet |
 
 ---
 
