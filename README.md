@@ -50,7 +50,7 @@ Data cleaning and transformation was done in Microsoft SQL Server and the datase
 
 The Olympics Game dataset is contained in a table named:
 
-- `Olympic Games Analysis Transformations` which has `11 columns and 222,552 rows` of observation
+- `Olympic Games Analysis Transformations` which has `10 columns and 222,552 rows` of observation
 
 Below is the SQL statement for cleansing and transforming necessary data.
 
@@ -79,17 +79,16 @@ SELECT
 The tabulation below shows the `Olympic Games Analysis Transformations` table with its column names and their description:
 | Column Name | Description |
 | ----------- | ----------- |
-| Competitor Name | Represents the date and time of tweet |
-| Sex | Describes the tweet url |
-| Age | Describes the username of the user |
-| Age Grouping | Descibes the device type of the user  |
-| Height | Describes the location of the user |
-| Weight | Describes the content of the tweet |
-| NOC | Represents the count of likes of the tweet |
-| Year | Represents the count of retweets of the tweet |
-| Season | Represents the count of quote tweets on the tweet |
-| Sport | Represents the count of reply on the tweet |
-| Medal | Represents the count of reply on the tweet |
+| Competitor Name | Describes the competitors name |
+| Sex | Describes the competitors gender |
+| Age | Represents the competitors age |
+| Height | Represents the competitors height |
+| Weight | Represents the competitors weight |
+| Nation Code | Describes the competitors nationality |
+| Year | Represents the year of the Olympic Games |
+| Season | Describes the season of the Olympic Games |
+| Sport | Describes the sport the competitor participated in |
+| Medal | Describes the medal won by the competitor |
 
 ---
 
