@@ -98,7 +98,7 @@ After the dataset was cleaned and transformed, it was ready to be modeled(using 
 
 - The fact and dimension have been combined into one table and is shown in the data model below
 
-<img align="right" alt="Data Model" width="1000" height = "400" src="hhttps://user-images.githubusercontent.com/106287208/189198226-fc53789b-a1ea-4b31-9a5b-0f5184aa6a1d.png">
+<img align="right" alt="Data Model" width="1000" height = "400" src="https://analyzewithaliportfolio.files.wordpress.com/2021/08/olympicgamesanalysis3.png">
 
 ---
 
