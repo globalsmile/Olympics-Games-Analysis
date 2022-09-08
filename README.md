@@ -21,8 +21,9 @@
 
 # Introduction
 
-The purpose of this Olympic Games analysis is to visualize data that will help readers understand how countries have performed historically in the summer Olympic Games(with the possibility to select your own country).
-There is also an interest in the details about the competitors.
+The Summer Olympic Games (French: Jeux olympiques d'été), also known as the Games of the Olympiad, and often referred to as the Summer Olympics, is a major international multi-sport event normally held once every four years. The inaugural Games took place in 1896 in Athens, Greece, and the most recent edition was held in 2021 in Tokyo, Japan. The International Olympic Committee (IOC) is responsible for organising the Games and for overseeing the host city's preparations. The tradition of awarding medals began in 1904; in each Olympic event, gold medals are awarded for first place, silver medals for second place, and bronze medals for third place. The Winter Olympic Games were created out of the success of the Summer Olympic Games, which are regarded as the largest and most prestigious multi-sport international event in the world...
+[Read More](https://en.wikipedia.org/wiki/Summer_Olympic_Games)
+
 
 
 ---
