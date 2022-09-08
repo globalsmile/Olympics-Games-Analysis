@@ -52,7 +52,7 @@ The Olympics Game dataset is contained in a table named:
 
 - `Olympic Games Analysis Transformations` which has `10 columns and 222,552 rows` of observation
 
-Below is the SQL statement for cleansing and transforming necessary data.
+The necessary data was first put into a SQL database and afterwards transformed using the transformations that you can see below.
 
 `Olympic Games Analysis Transformations`
 
