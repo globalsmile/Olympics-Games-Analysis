@@ -139,4 +139,4 @@ As shown from [Data Visualization](https://github.com/globalsmile/Sales-Manageme
 
 You can interact with the report here: 
 
-[Report](https://app.powerbi.com/view?r=eyJrIjoiNWVmNDRjNjEtNjZjZC00OGE2LTllYjktMDRjMmMyOTE4ZDYxIiwidCI6IjQ5ODY4YWYzLWNjNWYtNDIxNC04YjdmLTQwZjM3NDY0OWEwOSJ9)
+[Report](https://app.powerbi.com/view?r=eyJrIjoiMDdkMzY4NTYtZTE5Ny00ZTBkLTk4OWYtOGUxYmExZGViM2IyIiwidCI6IjQ5ODY4YWYzLWNjNWYtNDIxNC04YjdmLTQwZjM3NDY0OWEwOSJ9)
