@@ -50,7 +50,7 @@ Data cleaning and transformation was done in Microsoft SQL Server and the datase
 
 The Olympics Game dataset is contained in a table named:
 
-- `Olympic_Data` which has `10 columns and 222,552 rows` of observation
+- `Olympic_Data` which has `11 columns and 222,552 rows` of observation
 
 The necessary data was first put into a SQL database and afterwards transformed using the transformations that you can see below.
 
@@ -58,7 +58,8 @@ The necessary data was first put into a SQL database and afterwards transformed 
 
 ```TSQL
 SELECT
-         [Name] AS 'Competitor Name'
+         [ID]
+        ,[Name] AS 'Competitor Name'
         ,CASE WHEN SEX = 'M' THEN 'Male' ELSE 'Female' END AS Sex
         ,[Age]
 		,CASE	WHEN [Age] < 18 THEN 'Under 18'
@@ -79,6 +80,7 @@ SELECT
 The tabulation below shows the `Olympic_Data` table with its column names and their description:
 | Column Name | Description |
 | ----------- | ----------- |
+| ID | Represents the number of competitors |
 | Competitor Name | Describes the competitors name |
 | Sex | Describes the competitors gender |
 | Age | Represents the competitors age |
@@ -120,18 +122,15 @@ Figure 1 shows visualizations from `Olympic Games Analysis` page
 
 Measures used in visualization are:
 
-- Budget = `SUM ( FACT_Budget[Budget] )`
-- Sales = `SUM ( FACT_InternetSales[SalesAmount] )`
-- Sales / Budget = `[Sales] - [Budget]`
+- '# of Competitors' = `DISTINTCOUNT ( 'Olympic_Data[ID] )`
+- '# of Medals' = `COUNTROWS ( 'Olympic_Data' )`
+- '# of Medals' (Registered) = `CALCULATE ([# of Medals], FILTER( ‘Olympic Data’, ‘Olympic Data'[Medal] = “Bronze” || ‘Olympic Data’ [Medal] = “Gold” || ‘Olympic Data'[Medal] = “Silver)`
 
 
-As shown from [Data Visualization](https://github.com/globalsmile/Sales-Management-Analysis#Data-Visualization), It can be deducted that for the year ending December 2021:
+As shown from [Data Visualization](https://github.com/globalsmile/Olympics-Games-Analysis#Data-Visualization), It can be deduced that:
 
-- Sales is up by `1,051,550`
-- The top customer by sales is `Jordan Turner`
-- The top product by sales is `Mountain-200 Black,42`
-- The top product category by sales is the `Bikes` occupying 93.93% of the total sales
-- There is a positive correlation between `Sales` and `Budget`
+- From 1896-2016, the total number of competitors is `116,776`
+- From 1896-2016, the total number of medals received is `34,088`
 
 ---
 
