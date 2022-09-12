@@ -1,13 +1,12 @@
 # Olympics Games Analysis
 
-<img align="right" alt="Sales Management Analysis" width="1000" height = "400" src="https://monday.com/blog/wp-content/uploads/2021/05/sales-analysis.jpg">
+<img align="right" alt="Sales Management Analysis" width="1000" height = "400" src="https://st.depositphotos.com/2461721/4028/i/450/depositphotos_40285597-stock-photo-olympic-rings.jpg">
 
 ---
 
 
 # Table of Contents
 
-- [Introduction](https://github.com/globalsmile/Olympics-Games-Analysis#introduction)
 - [Problem Statement](https://github.com/globalsmile/Olympics-Games-Analysis#Problem-Statement)
 - [Data Sourcing](https://github.com/globalsmile/Olympics-Games-Analysis#Data-Sourcing)
 - [Data Preparation](https://github.com/globalsmile/Olympics-Games-Analysis#Data-Preparation)
@@ -15,15 +14,6 @@
 - [Data Visualization](https://github.com/globalsmile/Olympics-Games-Analysis#Data-Visualization)
 - [Data Analysis & Insights](https://github.com/globalsmile/Olympics-Games-Analysis#Data-Analysis)
 - [Shareable link](https://github.com/globalsmile/Olympics-Games-Analysis#Shareable-Link)
-
-
----
-
-# Introduction
-
-The Summer Olympic Games (French: Jeux olympiques d'été), also known as the Games of the Olympiad, and often referred to as the Summer Olympics, is a major international multi-sport event normally held once every four years. The inaugural Games took place in 1896 in Athens, Greece, and the most recent edition was held in 2021 in Tokyo, Japan. The International Olympic Committee (IOC) is responsible for organising the Games and for overseeing the host city's preparations. The tradition of awarding medals began in 1904; in each Olympic event, gold medals are awarded for first place, silver medals for second place, and bronze medals for third place. The Winter Olympic Games were created out of the success of the Summer Olympic Games, which are regarded as the largest and most prestigious multi-sport international event in the world...
-[Read More](https://en.wikipedia.org/wiki/Summer_Olympic_Games)
-
 
 
 ---
