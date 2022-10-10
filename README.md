@@ -94,6 +94,8 @@ After the dataset was cleaned and transformed, it was ready to be modeled(using 
 
 ---
 
+
+
 # Data Visualization
 
 Data visualization for the dataset was done using Microsft Power BI Destop:
