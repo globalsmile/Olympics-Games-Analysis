@@ -12,7 +12,7 @@
 - [Data Preparation](https://github.com/globalsmile/Olympics-Games-Analysis#Data-Preparation)
 - [Data Modeling](https://github.com/globalsmile/Olympics-Games-Analysis#Data-Modeling)
 - [Data Visualization](https://github.com/globalsmile/Olympics-Games-Analysis#Data-Visualization)
-- [Data Analysis & Insights](https://github.com/globalsmile/Olympics-Games-Analysis#Data-Analysis-&-Insights)
+- [Data Analysis & Insights](https://github.com/globalsmile/Olympics-Games-Analysis#Data-Analysis--Insights)
 - [Shareable link](https://github.com/globalsmile/Olympics-Games-Analysis#Shareable-Link)
 
 
