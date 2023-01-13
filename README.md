@@ -1,6 +1,6 @@
 # Olympics Games Analysis
 
-<img align="right" alt="Sales Management Analysis" width="1000" height = "400" src="https://st.depositphotos.com/2461721/4028/i/450/depositphotos_40285597-stock-photo-olympic-rings.jpg">
+<img align="right" alt="Sales Management Analysis" width="1000" height = "500" src="https://user-images.githubusercontent.com/106287208/189209800-f64b107b-2a4e-4562-a042-3dd7fc414721.png">
 
 ---
 
